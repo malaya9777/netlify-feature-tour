@@ -16,7 +16,7 @@ import Layout from '../components/layout.astro';
 >
 <main>
   <article class="contact">
-      <form class="form" method="POST" name="contact" netlify>
+      <form class="form" method="POST" name="contact" action="/success" netlify>
           <div class="form-input">
               <input type="text" required="" name="name" class="input" id=""
                   onfocus="checkLabel(this, 'labelName')" onblur="checkLabel2(this,'labelName')">
@@ -35,7 +35,7 @@ import Layout from '../components/layout.astro';
           <div class="form-input">
               <textarea name="description" required="" id="" onfocus="checkLabel(this, 'labelDescription')"
                   onblur="checkLabel2(this,'labelDescription')" spellcheck="false"
-                  data-ms-editor="true" onclick="(this)=>{this.value.trim()}">                </textarea>
+                  data-ms-editor="true" onclick="(this)=>{this.value.trim()}"></textarea>
               <label for="description" id="labelDescription">Requirement</label>
           </div>
           <button type="submit">Send</button>
