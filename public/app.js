@@ -1,6 +1,4 @@
-let inputs = document.querySelectorAll('.input');
 
-console.log(inputs)
 
 function checkLabel(element, label){
     let lblEle = document.getElementById(label);
