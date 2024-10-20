@@ -42,20 +42,5 @@ import Layout from '../components/layout.astro';
       </form>
   </article>
 </main>
-<script>
-    let inputs = document.querySelectorAll('.input');
-
-function checkLabel(element, label){
-    let lblEle = document.getElementById(label);
-    lblEle.classList.add('label-move');
-}
-function checkLabel2(element, label){
-    
-    let lblEle = document.getElementById(label);
-    element.value = element.value.trim()
-    if(element.value===""){
-        lblEle.classList.toggle('label-move');
-    }    
-}
-</script>
+<script src="/app.js"></script>
 </Layout>
