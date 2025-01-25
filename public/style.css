@@ -252,16 +252,34 @@ main article.bio p {
     filter: drop-shadow(0px 0px 5px #002394);
 }
 /* Contact Form Styling */
-main article.contact {
-    min-height: 100vh;
+main article.contact {   
     max-width: 1080px;
     box-sizing: border-box;
     margin: 0 auto;
     padding: 150px 30px;
-
     display: flex;
     justify-content: center;
     text-align: center;
+}
+
+main article.phone{
+    max-width: 1080px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    row-gap: 10px;
+    flex-direction: column;
+}
+main article.phone a{   
+    color:#ffffff;
+    text-decoration: none;
+    
+    
+}
+main article.phone .or{
+    color: #ffffff;
 }
 
 .contact form {
